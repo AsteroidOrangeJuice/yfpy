@@ -241,7 +241,7 @@ def dict_to_list(json_dict: Dict[str, Any]) -> Any:
     return json_dict
 
 
-def reorganize_json_dict(json_dict: Dict[str, Any], obj_key: str, val_to_key: str) -> OrderedDict[str, Any]:
+def reorganize_json_dict(json_dict: Dict[str, Any], obj_key: str, val_to_key: str) -> OrderedDict:
     """Function to reorganize a JSON dictionary of dictionaries.
 
     The reorganized JSON dictionary is an ordered dictionary sorted by a specific attribute of the value dictionaries.
